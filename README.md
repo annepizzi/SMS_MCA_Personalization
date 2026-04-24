@@ -16,6 +16,12 @@ To create in your own demo environment, please ensure you have the following ena
 2. Marketing Admin  
 3. Personalization Admin
 
+**Consent & Send Code Requirements**
+
+1. Ensure you have a SMS Sender Code activated
+2. Create a New Communication Subscripion with Sender Code
+
+
 ## **How to Implement**
 
 To build in your own environment, please follow these steps.

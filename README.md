@@ -23,12 +23,12 @@ To create in your own demo environment, please ensure you have the following ena
 
 **Setup Consent Replies**
 
-Where📍: Setup → SMS Codes → Click on Code
+Where📍: Setup → SMS Codes → Click on Code -> Consent Setup
 - **Consent Opt-in Type:** Explicit
 - **Opt-In Keywords:** JOIN,SIGN-UP, JOIN Send this text to subscribe to recurring automated personalized marketing alerts (e.g. offers) from <company>
 - **Opt-In Confirmation Message:** <Company>: Welcome! Msg & data rates apply. Msg frequency varies. Reply HELP for help, STOP to unsubscribe.
 - **Double Opt-In Keywords:** YES
-- **Opt-Out Keywords (including these system-defined keywords): **REVOKE,STOP,UNSUBSCRIBE,CANCEL,QUIT,END,OPT OUT
+- **Opt-Out Keywords (including these system-defined keywords)**: **REVOKE,STOP,UNSUBSCRIBE,CANCEL,QUIT,END,OPT OUT
 - **Opt-Out Message:** You've opted out of receiving messages from us, so we won't contact you again.
 - **Help Keywords (including system-defined HELP keyword):** HELP
 - **Help Message:** Text STOP to opt out of further messages. Quadstart support at support@quadstar.com

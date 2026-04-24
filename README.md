@@ -31,7 +31,7 @@ Where📍: Setup → SMS Codes → Click on Code -> Consent Setup
 - **Opt-Out Keywords (including these system-defined keywords)**: **REVOKE,STOP,UNSUBSCRIBE,CANCEL,QUIT,END,OPT OUT
 - **Opt-Out Message:** You've opted out of receiving messages from us, so we won't contact you again.
 - **Help Keywords (including system-defined HELP keyword):** HELP
-- **Help Message:** Text STOP to opt out of further messages. Quadstart support at support@quadstar.com
+- **Help Message:** Text STOP to opt out of further messages. <company> support at <company url>
 
 ## **How to Implement**
 

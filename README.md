@@ -21,6 +21,17 @@ To create in your own demo environment, please ensure you have the following ena
 1. Ensure you have a SMS Sender Code activated
 2. Create a New Communication Subscripion with Sender Code
 
+**Setup Consent Replies**
+
+Where📍: Setup → SMS Codes → Click on Code
+- **Consent Opt-in Type:** Explicit
+- **Opt-In Keywords:** JOIN,SIGN-UP, JOIN Send this text to subscribe to recurring automated personalized marketing alerts (e.g. offers) from <company>
+- **Opt-In Confirmation Message:** <Company>: Welcome! Msg & data rates apply. Msg frequency varies. Reply HELP for help, STOP to unsubscribe.
+- **Double Opt-In Keywords:** YES
+- **Opt-Out Keywords (including these system-defined keywords): **REVOKE,STOP,UNSUBSCRIBE,CANCEL,QUIT,END,OPT OUT
+- **Opt-Out Message:** You've opted out of receiving messages from us, so we won't contact you again.
+- **Help Keywords (including system-defined HELP keyword):** HELP
+- **Help Message:** Text STOP to opt out of further messages. Quadstart support at support@quadstar.com
 
 ## **How to Implement**
 
@@ -207,17 +218,14 @@ System Info **\- cdp\_sys\_DeviceType \-** is Equal to   **Desktop**
 
 #### **For Mobile Experience**
 
-1. **Create 4 new SMS messages**  
-   1. Welcome Message  
-      1. **Message Purpose:** Promotional  
-      2. **Message:** \<Company\>: Welcome\! Msg & data rates apply. Msg frequency varies. Reply HELP for help, STOP to unsubscribe. Privacy [https://www.salesforce.com](https://www.salesforce.com)  
-   2. Welcome Coupon   
+1. **Create 3 new SMS messages**   
+   1. Welcome Coupon   
       1. **Message Purpose:** Promotional  
       2. **Message:** \<Company\>: Here's your 10% off coupon: SMSy6zf83GEG. Click here to auto-apply the code and shop: [https://www.salesforce.com](https://www.salesforce.com)  
-   3. Welcome Contact Card  
+   2. Welcome Contact Card  
       1. **Message Purpose:** Promotional  
       2. **Message:** \<Company\>: Don't forget to save our contact to get exclusive updates\! \<Insert URL from Page Here\>  
-   4. Collect Interest  
+   3. Collect Interest  
       1. **Message Purpose:** Promotional  
       2. **Message:** \<Company\>: We'd love to get to know you better\! Was there a particular product or category of products you are most interested in learning about for example our device line, internet plans or entertainment bundles?   
 2. **Create an Automation Event-Triggered Flow**  

@@ -19,7 +19,7 @@ To create in your own demo environment, please ensure you have the following ena
 **Consent & Send Code Requirements**
 
 1. Ensure you have a SMS Sender Code activated
-2. Create a New Communication Subscripion with Sender Code
+2. Create a New Communication Subscription with Sender Code
 
 **Setup Consent Replies**
 
